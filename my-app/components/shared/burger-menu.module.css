@@ -28,16 +28,6 @@
   display: none;
 }
 
-.links {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: black;
-  text-transform: uppercase;
-}
-
 @media only screen and (max-width: 768px) {
   .container {
     display: block;

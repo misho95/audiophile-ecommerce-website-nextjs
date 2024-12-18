@@ -3,9 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import style from "./burger-menu.module.css";
-import { navLinks } from "@/lib/data";
-import Link from "next/link";
-import Button from "../ui/button";
+import NavMenu from "./nav-menu";
 
 const BurgerMenu = () => {
   const [open, setOpen] = useState(false);
@@ -33,28 +31,7 @@ const BurgerMenu = () => {
       {open && (
         <div className={style.container}>
           <div className={style.burgerMenu}>
-            {navLinks.slice(1, 4).map((link) => {
-              return (
-                <Link href={link.url} key={link.id} className={style.links}>
-                  <Image
-                    width={103}
-                    height={104}
-                    alt={link.title}
-                    src={link.icon}
-                  />
-                  <h3>{link.title}</h3>
-                  <Button variant="icon">
-                    shop{" "}
-                    <Image
-                      width={5}
-                      height={10}
-                      alt="shop"
-                      src="/assets/shared/desktop/icon-arrow-right.svg"
-                    />
-                  </Button>
-                </Link>
-              );
-            })}
+            <NavMenu />
           </div>
         </div>
       )}

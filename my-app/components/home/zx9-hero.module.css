@@ -1,0 +1,36 @@
+.styledArticle {
+  background-color: var(--orange);
+  height: 560px;
+  border-radius: 8px;
+  background-image: url("/assets/home/desktop/image-speaker-zx9.png");
+  background-repeat: no-repeat;
+  background-size: 410px;
+  background-position: 250px 78px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 80px;
+}
+
+.styledInfo {
+  max-width: 350px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+}
+
+.styledInfo h1 {
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.styledInfo p {
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 75%;
+}

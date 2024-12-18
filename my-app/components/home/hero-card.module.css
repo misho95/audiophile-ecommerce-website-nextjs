@@ -11,7 +11,7 @@
 
 .heroCardCenter {
   margin: auto;
-  width: clamp(90%, 100%, 1110px);
+  width: clamp(70%, 100%, 1110px);
   background-size: 700px;
   background-repeat: no-repeat;
   background-position: right center;
