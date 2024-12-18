@@ -1,3 +1,10 @@
+import HeroCard from "@/components/home/hero-card";
+
 export default function Home() {
-  return <div>hello</div>;
+  return (
+    <>
+      <HeroCard />
+      <div style={{ height: 2000 }}>ss</div>
+    </>
+  );
 }

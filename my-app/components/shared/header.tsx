@@ -2,11 +2,13 @@ import Image from "next/image";
 import style from "./header.module.css";
 import { navLinks } from "@/lib/data";
 import Link from "next/link";
+import BurgerMenu from "./burger-menu";
 
 const Header = () => {
   return (
     <header className={style.header}>
       <div className={style.headerCenter}>
+        <BurgerMenu />
         <Link href="/">
           <Image
             width={143}
@@ -25,7 +27,14 @@ const Header = () => {
             );
           })}
         </nav>
-        <button>Cart</button>
+        <button className={style.cartButton}>
+          <Image
+            width={23}
+            height={20}
+            alt="cart"
+            src="/assets/shared/desktop/icon-cart.svg"
+          />
+        </button>
       </div>
     </header>
   );

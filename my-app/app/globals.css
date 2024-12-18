@@ -5,7 +5,7 @@
   --orangeLight: #fbaf85;
   --dark: #101010;
   --light: #f1f1f1;
-  --header: #0e0e0e;
+  --header: #191919;
 }
 
 html,
@@ -26,4 +26,14 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.hide-scroll {
+  overflow: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .hide-scroll {
+    overflow: hidden;
+  }
 }

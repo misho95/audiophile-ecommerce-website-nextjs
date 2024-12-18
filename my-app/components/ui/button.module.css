@@ -1,0 +1,43 @@
+.button {
+  padding: 16px;
+  border: none;
+  font-size: 13px;
+  line-height: 17.76px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.primary {
+  background-color: var(--orange);
+  color: white;
+}
+
+.primary:hover {
+  background-color: var(--orangeLight);
+}
+
+.secondary {
+  background-color: var(--light);
+  color: black;
+  border: 1px solid black;
+}
+
+.secondary:hover {
+  background-color: black;
+  color: var(--light);
+}
+
+.icon {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+}
+.icon:hover {
+  color: var(--orange);
+}
