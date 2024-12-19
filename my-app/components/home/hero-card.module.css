@@ -51,23 +51,6 @@
   opacity: 75%;
 }
 
-/* .heroArticle button {
-  background-color: var(--orange);
-  padding: 16px;
-  border: none;
-  color: white;
-  font-size: 13px;
-  line-height: 17.76px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  text-transform: uppercase;
-  cursor: pointer;
-} */
-
-/* .heroArticle button:hover {
-  background-color: var(--orangeLight);
-} */
-
 @media only screen and (max-width: 768px) {
   .heroCard {
     background-image: url("/assets/home/tablet/image-header.jpg");

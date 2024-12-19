@@ -50,7 +50,7 @@
     align-items: center;
   }
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 455px) {
     .styledArticle {
       height: 600px;
       background-size: 172px;

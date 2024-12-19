@@ -10,9 +10,21 @@
   display: flex;
   flex-direction: column;
   gap: 150px;
+  padding: 20px;
 }
 
 .styledDiv {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  gap: 20px;
+  width: clamp(70%, 100%, 1110px);
+  margin: auto;
+}
+
+@media only screen and (max-width: 455px) {
+  .styledDiv {
+    flex-direction: column;
+    align-items: center;
+  }
 }
